@@ -1,10 +1,30 @@
-*{
-  box-sizing: border-box;
+header{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(134, 71, 71);
+  color: white;
 }
-h1{
-  text-align: center;
-  color: gray;
+
+nav ul li {
+  list-style-type: none;
+
 }
-p{
-  font-style: italic;
+.container{
+  display: flex;
+  justify-content: s;
+}
+nav{
+  background-color: rgb(238, 153, 234);
+
+}
+main{
+  background-color: rgb(247, 144, 162);
+}
+div{
+  background-color: rgb(238, 153, 234);
+}
+footer{
+  background-color: brown;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
